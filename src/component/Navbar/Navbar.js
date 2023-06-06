@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom';
 import logo from '../../asset/logo.jpg';
 import square from '../../asset/square.png';
 import circle from '../../asset/circle.png';
+import facebook from '../../asset/facebook.png';
+import youtube from '../../asset/youtube.png';
+
+import externalLinks from '../../config/externalLinks';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -42,6 +46,14 @@ const Navbar = () => {
                             <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
                                 Contact
                             </Link>
+                        </li>
+                        <li className="social-media">
+                            <a href={externalLinks.facebook} target="_blank">
+                                <img src={facebook} alt="facebook" className="icon-sm" />
+                            </a>
+                            <a href={externalLinks.youtube} target='_blank'>
+                                <img src={youtube} alt="youtube" className="icon-sm" />
+                            </a>
                         </li>
                     </ul>
                 </div>

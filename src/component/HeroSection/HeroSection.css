@@ -16,20 +16,29 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    overflow: hidden;
 }
 
 .hero-container > h1 {
     color: #fff;
     font-size: 100px;
+    animation: slideUp ease 0.3s forwards 0.3s;
+    opacity: 0;
 }
 
 .hero-container > p {
-    margin-top: 8px;
     color: #fff;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
+    animation: slideUp ease .5s forwards 0.5s;
+    opacity: 0;
 }
+
+@keyframes slideUp {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-40px);opacity:1;}
+  }
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
@@ -52,4 +61,50 @@ video {
         display: block;
         text-decoration: none;
     }
+}
+
+.scroll {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+    cursor: pointer;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
 }
