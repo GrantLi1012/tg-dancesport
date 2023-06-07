@@ -48,10 +48,10 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="social-media">
-                            <a href={externalLinks.facebook} target="_blank">
+                            <a href={externalLinks.facebook} target="_blank" rel="noreferrer">
                                 <img src={facebook} alt="facebook" className="icon-sm" />
                             </a>
-                            <a href={externalLinks.youtube} target='_blank'>
+                            <a href={externalLinks.youtube} target='_blank' rel="noreferrer">
                                 <img src={youtube} alt="youtube" className="icon-sm" />
                             </a>
                         </li>
