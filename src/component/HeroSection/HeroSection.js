@@ -2,7 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 
 import homeVideo from '../../asset/home-video.mp4';
-import poster from '../../asset/square.png';
+import poster from '../../asset/home-poster.jpeg';
 
 import { homeStrings } from '../../config';
 import { Button } from '../Button/Button';
