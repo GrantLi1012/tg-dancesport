@@ -37,14 +37,14 @@
 .btn--large:hover,
 .btn--medium:hover {
     transition: all 0.3s ease-out;
-    background: #ffffff8b;
+    background: #ffffffaa;
     color: #242424;
     transition: 250ms;
 }
 
 .btn--primary:hover {
     transition: all 0.3s ease-out;
-    background: #ffffff8b;
+    background: #ffffffaa;
     color: #242424;
     transition: 250ms;
 }
