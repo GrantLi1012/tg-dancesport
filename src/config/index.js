@@ -1,1 +1,2 @@
-export { default as strings } from "./strings";
+export { default as homeStrings } from "./homeStrings";
+export { default as externalLinks } from "./externalLinks";

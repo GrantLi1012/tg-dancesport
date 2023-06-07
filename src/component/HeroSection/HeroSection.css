@@ -34,12 +34,24 @@ video {
         'Lucida Sans', Arial, sans-serif;
     animation: slideUp ease .5s forwards 0.5s;
     opacity: 0;
+    margin: 1vh;
+}
+
+.hero-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-btns .btn {
+    margin: 6px;
 }
 
 @keyframes slideUp {
     0% {transform: translateY(0);}
     100% {transform: translateY(-40px);opacity:1;}
-  }
+}
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
@@ -62,4 +74,50 @@ video {
         display: block;
         text-decoration: none;
     }
+}
+
+.scroll {
+	width: 60px;
+	height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
 }

@@ -1,4 +1,4 @@
-const strings = {
+const homeStrings = {
     home: {
         title: "TG DANCESPORT",
         slogan: "Group classes. Private lessons. Wedding dances. And so much more."
@@ -14,4 +14,4 @@ const strings = {
     },
 };
 
-export default strings;
+export default homeStrings;

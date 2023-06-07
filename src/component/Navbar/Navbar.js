@@ -8,7 +8,7 @@ import circle from '../../asset/circle.png';
 import facebook from '../../asset/facebook.png';
 import youtube from '../../asset/youtube.png';
 
-import externalLinks from '../../config/externalLinks';
+import { externalLinks } from '../../config';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
