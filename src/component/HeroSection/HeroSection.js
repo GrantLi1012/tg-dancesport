@@ -29,7 +29,7 @@ const HeroSection = () => {
                     OUR STORY
                 </Button>
             </div>
-            <div class="scroll"></div>
+            <div className="scroll"></div>
         </div>
     );
 };

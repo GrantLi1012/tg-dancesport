@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
             </section>
             
-            <small class='website-rights'>© copyright 2023 TGDancesport. All Rights Reserved.</small>
+            <small className='website-rights'>© copyright 2023 TGDancesport. All Rights Reserved.</small>
         </div>
     );
 }

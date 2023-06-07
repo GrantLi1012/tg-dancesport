@@ -1,5 +1,6 @@
 :root {
     --primary: #fff;
+    --dark: #242424;
 }
 
 .btn {
@@ -24,6 +25,14 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--dark {
+    background-color: transparent;
+    color: var(--dark);
+    padding: 8px 20px;
+    border: 2px solid var(--dark);
+    transition: all 0.3s ease-out;
+}
+
 .btn--medium {
     padding: 8px 20px;
     font-size: 18px;
@@ -35,7 +44,8 @@
 }
 
 .btn--large:hover,
-.btn--medium:hover {
+.btn--medium:hover,
+.btn--dark:hover {
     transition: all 0.3s ease-out;
     background: #ffffffaa;
     color: #242424;
