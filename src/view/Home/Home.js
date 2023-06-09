@@ -1,9 +1,25 @@
 import React from 'react';
 import './Home.css';
-import { HeroSection, ClassCards, Button } from '../../component';
+import { HeroSection, ClassCards, Button, Carousel, Testimonial } from '../../component';
 import { homeStrings } from '../../config';
 
 const Home = () => {
+
+    const getTestimonialList = () => {
+        const testimonialList = homeStrings.home_testimonials;
+        const result = [];
+        testimonialList.forEach((item, index) => {
+            result.push(
+                <Testimonial
+                    key={index}
+                    testimonial={item.testimonial}
+                    author={item.author}
+                />
+            );
+        });
+        return result;
+    };
+
     return (
         <div className="home-container">
             <HeroSection />
@@ -28,7 +44,10 @@ const Home = () => {
                 </Button>
             </div>
             <div className="bg-white home-section">
-                What students are saying
+                <div className="home-title">{homeStrings.home.section3_title}</div>
+                <Carousel
+                    childrenList={getTestimonialList()}
+                />
             </div>
             <div className="bg-grey home-section">
                 Gallery
