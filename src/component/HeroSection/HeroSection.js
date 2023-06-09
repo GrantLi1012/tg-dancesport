@@ -7,7 +7,9 @@ import poster from '../../asset/home-poster.jpeg';
 import { homeStrings } from '../../config';
 import { Button } from '../Button/Button';
 
-const HeroSection = () => {
+const HeroSection = (props) => {
+    const {handleClick = ()=>{}} = props;
+
     return (
         <div className='hero-container'>
             <video src={homeVideo} autoPlay loop muted poster={poster}/>
@@ -29,7 +31,7 @@ const HeroSection = () => {
                     OUR STORY
                 </Button>
             </div>
-            <div className="scroll"></div>
+            <div className="scroll" onClick={handleClick}></div>
         </div>
     );
 };

@@ -6,7 +6,7 @@ import cat5 from '../asset/cat5.jpg';
 
 const homeStrings = {
     home: {
-        title: "TG DANCESPORT",
+        title: "TGDANCESPORT",
         slogan: "Group classes. Private lessons. Wedding dances. And so much more.",
         section1_title: "Happy, Healthy, and Esxtraordinary Life Awaits, Start Dancing!",
         section1_content: "​Welcome to TGDancesport! Tony and Gloria are internationally trained professional ballroom dance instructors based in Vancouver BC, Canada. You will find all the information about their group classes for beginners, social dancers, and competitors on this website. They offer ballroom dance lessons for everyone starting from age 4 to adults of all ages. Come join the fun and learn how to ballroom dance in a friendly and relaxed environment. Looking for the best ballroom dance instructors who are also world class competitive dancers and experienced teachers? Register for their group classes and learn from Champions who are passionate about teaching you how to dance!",
@@ -42,6 +42,10 @@ const homeStrings = {
         }
     ],
     home_testimonials: [
+        {
+            testimonial: "Gloria is scary but Tony is nice",
+            author: "Tony",
+        },
         {
             testimonial: "Tony and Gloria are the best dance instructors I have ever had. They are very patient and encouraging. They are also very professional and knowledgeable. I have learned so much from them. I highly recommend them to anyone who wants to learn how to dance.",
             author: "Josh",

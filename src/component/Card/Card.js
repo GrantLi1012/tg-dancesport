@@ -15,7 +15,7 @@ export const Card = (props) => {
                             alt='Cat1'
                             src={src}
                         />
-                        <div class="cards__middle">
+                        <div className="cards__middle">
                             <div class="cards__overlay__text">LEARN MORE</div>
                         </div>
                     </figure>

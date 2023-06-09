@@ -6,3 +6,4 @@ export {default as Card} from "./Card/Card";
 export {default as ClassCards} from "./ClassCards/ClassCards";
 export {default as Carousel} from "./Carousel/Carousel";
 export {default as Testimonial} from "./Testimonial/Testimonial";
+export {default as VideoPlayer} from "./VideoPlayer/VideoPlayer";

@@ -47,10 +47,6 @@
     }
 }
 
-.fade-in {
-    animation: fadeInAnimation 1s linear;
-}
-
 @keyframes fadeInAnimation {
     0% {
     opacity: 0;

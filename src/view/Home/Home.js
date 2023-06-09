@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Home.css';
-import { HeroSection, ClassCards, Button, Carousel, Testimonial } from '../../component';
+import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer } from '../../component';
 import { homeStrings } from '../../config';
 
 const Home = () => {
+    const refToMainContent = useRef(null);
+
+    // scroll to main content then move up a little bit to avoid navbar
+    const handleScrollToMainContent = () => {
+        window.scrollTo({
+            top: refToMainContent.current.offsetTop - 80,
+            behavior: "smooth"
+        });
+    };
 
     const getTestimonialList = () => {
         const testimonialList = homeStrings.home_testimonials;
@@ -22,14 +31,14 @@ const Home = () => {
 
     return (
         <div className="home-container">
-            <HeroSection />
-            <div className="bg-white home-section">
+            <HeroSection
+                handleClick={handleScrollToMainContent}
+            />
+            <div className="bg-white home-section" ref={refToMainContent}>
                 <div className="home-title">{homeStrings.home.section1_title}</div>
                 <div className="home-text">{homeStrings.home.section1_content}</div>
                 <div className="home-video-wrapper">
-                    <div className="home-video-container">
-                        <iframe className="home-video" src="https://www.youtube.com/embed/-FbtfDw3oHY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                    </div>
+                    <VideoPlayer src="https://www.youtube.com/embed/-FbtfDw3oHY" />
                 </div>
             </div>
             <div className="bg-grey home-section">
