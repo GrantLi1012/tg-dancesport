@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     animation: fadeInAnimation 0.5s linear;
+    min-height: 15rem;
 }
 
 .testimonial-quote {

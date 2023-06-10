@@ -25,14 +25,18 @@ const Carousel = (props) => {
     
     return (
         <div className="carousel-container">
-            <div className="carousel-btn" onClick={decreaseIndex}>
-                <img className="carousel-img" alt="left-arrow" src={arrow} />
+            <div className="carousel-btn-wrapper" onClick={decreaseIndex}>
+                <div className="carousel-btn" onClick={decreaseIndex}>
+                    <img className="carousel-img" alt="left-arrow" src={arrow} />
+                </div>
             </div>
             <div className="carousel-slide">
                 {childrenList[current]}
             </div>
-            <div className="carousel-btn rotate180" onClick={increaseIndex}>
-                <img className="carousel-img" alt="right-arrow" src={arrow} />
+            <div className="carousel-btn-wrapper rotate180" onClick={increaseIndex}>
+                <div className="carousel-btn" onClick={decreaseIndex}>
+                    <img className="carousel-img" alt="right-arrow" src={arrow} />
+                </div>
             </div>
         </div>
     );

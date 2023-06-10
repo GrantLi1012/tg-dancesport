@@ -7,15 +7,24 @@
     align-items: center;
 }
 
-.carousel-btn {
+.carousel-btn-wrapper {
     display: flex;
+    height: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-btn {
+    flex: 1;
 }
 
 .carousel-btn:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.1);;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
 }
 
 .carousel-img {
@@ -33,4 +42,11 @@
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+@media screen and (max-width: 960px) {
+    .carousel-img {
+        width: 2rem;
+        height: 2rem;
+    }
 }
