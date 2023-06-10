@@ -2,11 +2,8 @@ import React, {useState} from 'react';
 import './Navbar.css';
 
 import { Link } from 'react-router-dom';
-import logo from '../../asset/logo.jpg';
-import square from '../../asset/square.png';
-import circle from '../../asset/circle.png';
-import facebook from '../../asset/facebook.png';
-import youtube from '../../asset/youtube.png';
+
+import { logo, square, circle, facebook, youtube } from '../../asset';
 
 import { externalLinks } from '../../config';
 

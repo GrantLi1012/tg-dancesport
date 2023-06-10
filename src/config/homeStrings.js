@@ -13,6 +13,7 @@ const homeStrings = {
         section2_title: "Classes We Offer",
         section2_content: "We offer a variety of classes for all ages and levels. Here are some of our highlighted classes. To find out which class suits you the best, feel free to reach out to us! We are happy to help you find the right class for you!",
         section3_title: "What Students Are Saying",
+        section4_title: "Gallery",
     },
     home_class_info: [
         {

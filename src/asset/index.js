@@ -1,0 +1,14 @@
+export {default as cat1} from './cat1.jpg';
+export {default as cat2} from './cat2.jpg';
+export {default as cat3} from './cat3.jpg';
+export {default as cat4} from './cat4.jpg';
+export {default as cat5} from './cat5.jpg';
+export {default as team} from './team.jpeg';
+export {default as gloria} from './gloria.jpeg';
+export {default as facebook} from './facebook.png';
+export {default as youtube} from './youtube.png';
+export {default as quote} from './quote.png';
+export {default as logo} from './logo.jpg';
+export {default as square} from './square.png';
+export {default as circle} from './circle.png';
+export {default as mashaAmy} from './mashaAmy.jpeg';

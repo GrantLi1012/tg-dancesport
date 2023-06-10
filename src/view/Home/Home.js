@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import './Home.css';
-import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer } from '../../component';
+import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer, Gallery } from '../../component';
 import { homeStrings } from '../../config';
+import { team, mashaAmy, gloria, cat1 } from '../../asset';
 
 const Home = () => {
     const refToMainContent = useRef(null);
+    const galleryList = [team, mashaAmy, gloria, cat1];
 
     // scroll to main content then move up a little bit to avoid navbar
     const handleScrollToMainContent = () => {
@@ -23,6 +25,21 @@ const Home = () => {
                     key={index}
                     testimonial={item.testimonial}
                     author={item.author}
+                />
+            );
+        });
+        return result;
+    };
+
+    const getGalleryList = () => {
+        const result = [];
+        galleryList.forEach((item, index) => {
+            result.push(
+                <img
+                    key={index}
+                    className="gallery-img"
+                    alt="gallery"
+                    src={item}
                 />
             );
         });
@@ -59,7 +76,10 @@ const Home = () => {
                 />
             </div>
             <div className="bg-grey home-section">
-                Gallery
+                <div className="home-title">{homeStrings.home.section4_title}</div>
+                <Carousel
+                    childrenList={getGalleryList()}
+                />
             </div>
         </div>
     )
