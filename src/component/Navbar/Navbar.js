@@ -51,6 +51,11 @@ const Navbar = () => {
                             <a href={externalLinks.youtube} target='_blank' rel="noreferrer">
                                 <img src={youtube} alt="youtube" className="icon-sm" />
                             </a>
+                            <p className="blog-link">
+                                <a href={externalLinks.blog} target='_blank' rel="noreferrer" style={{textDecoration: "none", color: "black"}}>
+                                    Blog
+                                </a>
+                            </p>
                         </li>
                     </ul>
                 </div>
