@@ -1,8 +1,4 @@
-import cat1 from '../asset/cat1.jpg';
-import cat2 from '../asset/cat2.jpg';
-import cat3 from '../asset/cat3.jpg';
-import cat4 from '../asset/cat4.jpg';
-import cat5 from '../asset/cat5.jpg';
+import {team2, team6, mashaAmy} from '../asset';
 
 const homeStrings = {
     home: {
@@ -17,30 +13,33 @@ const homeStrings = {
     },
     home_class_info: [
         {
-            title: "Adult Ballroom Intro",
-            text: "For beginners with little or no experience. Registration is on-going. Join us anytime!",
-            src: cat1,
+            title: "For Kids",
+            text: [
+                "• Mini Dancer Program (Age 4-6): Learn basic movements and improve coordination",
+                "• Youth Dancer Program (Age 7-11): Introduction to ballroom dance and learn basic steps and techniques",
+            ],
+            src: team2,
         },
         {
-            title: "Performance Class",
-            text: "For students who want to perform and compete. Registration is on-going. Join us anytime!",
-            src: cat2,
-        },
-        {
-            title: "Young Dancers Program",
-            text: "For children age 7-11 with little or no experience. Registration is on-going. Join us anytime!",
-            src: cat3,
-        },
-        {
-            title: "Mini Dancer Program",
-            text: "For children age 4-6 with little or no experience. Registration is on-going. Join us anytime!",
-            src: cat4,
+            title: "For Adults",
+            text: [
+                "• Beginner Program: Learn basic steps and techniques of ballroom dance",
+                "• Technique Class: Improve your dancing with proper techniques and exercises",
+                "• Performance Class: Learn a choreographed routine and perform at the end of the session",
+                "• Conditioning Class: Improve your strength, flexibility, and endurance for dancing",
+            ],
+            src: team6,
         },
         {
             title: "Wedding Dance & Private Events",
-            text: "For couples who want to learn a dance for their wedding or private events.",
-            src: cat5,
-        }
+            text: [
+                "• Wedding Dance: Learn a choreographed routine for your first dance",
+                "• Birthday Party: Have a fun dance lesson with your friends and family",
+                "• Corporate Event: Have a fun dance lesson with your colleagues",
+                "• Private Group Classes: For groups who are interested in learning how to dance together",
+            ],
+            src: mashaAmy,
+        },
     ],
     home_testimonials: [
         {

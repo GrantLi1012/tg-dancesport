@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import { useNavigate } from 'react-router-dom';
 
 import homeVideo from '../../asset/home-video.mp4';
 import poster from '../../asset/home-poster.jpeg';
@@ -9,6 +10,15 @@ import { Button } from '../Button/Button';
 
 const HeroSection = (props) => {
     const {handleClick = ()=>{}} = props;
+    const navigate = useNavigate();
+
+    const goToClasses = () => {
+        navigate('/classes');
+    }
+
+    const goToAbout = () => {
+        navigate('/about');
+    }
 
     return (
         <div className='hero-container'>
@@ -20,6 +30,7 @@ const HeroSection = (props) => {
                     className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
+                    onClick={goToClasses}
                 >
                     CLASSES
                 </Button>
@@ -27,6 +38,7 @@ const HeroSection = (props) => {
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
+                    onClick={goToAbout}
                 >
                     OUR STORY
                 </Button>

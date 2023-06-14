@@ -1,12 +1,14 @@
 import React, { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
-import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer, Gallery } from '../../component';
+import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer } from '../../component';
 import { homeStrings } from '../../config';
-import { team, mashaAmy, gloria, cat1 } from '../../asset';
+import { team, team2, team3, team4, team5, team6 } from '../../asset';
 
 const Home = () => {
     const refToMainContent = useRef(null);
-    const galleryList = [team, mashaAmy, gloria, cat1];
+    const galleryList = [team, team2, team3, team4, team5, team6];
+    const navigate = useNavigate();
 
     // scroll to main content then move up a little bit to avoid navbar
     const handleScrollToMainContent = () => {
@@ -46,6 +48,10 @@ const Home = () => {
         return result;
     };
 
+    const goToClasses = () => {
+        navigate('/classes');
+    };
+
     return (
         <div className="home-container">
             <HeroSection
@@ -65,8 +71,9 @@ const Home = () => {
                 <Button
                     buttonStyle='btn--dark'
                     buttonSize='btn--large'
+                    onClick={goToClasses}
                 >
-                    SEE ALL CLASSES
+                    LEARN MORE
                 </Button>
             </div>
             <div className="bg-white home-section">
@@ -79,6 +86,7 @@ const Home = () => {
                 <div className="home-title">{homeStrings.home.section4_title}</div>
                 <Carousel
                     childrenList={getGalleryList()}
+                    small
                 />
             </div>
         </div>

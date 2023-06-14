@@ -5,6 +5,26 @@ import { Link } from 'react-router-dom';
 export const Card = (props) => {
     const { title, text, src="../../asset/cat1.jpg", path = "" } = props;
 
+    const getTextItem = (str) => {
+        if (str.includes(':')) {
+            // make text before ':' bold
+            const index = str.indexOf(':');
+            const firstPart = str.slice(0, index + 1);
+            const secondPart = str.slice(index + 1);
+            return (
+                <div className='cards__item__text' id={str}>
+                    <b>{firstPart}</b>
+                    <div className='cards__item__padding'>{secondPart}</div>
+                </div>
+            );
+        }
+        else {
+            return (
+                <div className='cards__item__text' id={str}>{str}</div>
+            );
+        }
+    } 
+
     return (
         <>
             <li className='cards__item'>
@@ -15,12 +35,11 @@ export const Card = (props) => {
                             alt='Cat1'
                             src={src}
                         />
-                        <div className="cards__middle">
-                            <div class="cards__overlay__text">LEARN MORE</div>
-                        </div>
                     </figure>
                     <div className='cards__item__info'>
-                        <h5 className='cards__item__text'>{text}</h5>
+                        { text.map(item => {
+                            return getTextItem(item);
+                        })}
                     </div>
                 </Link>
             </li>
