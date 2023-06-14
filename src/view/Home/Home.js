@@ -4,6 +4,7 @@ import './Home.css';
 import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer } from '../../component';
 import { homeStrings } from '../../config';
 import { team, team2, team3, team4, team5, team6 } from '../../asset';
+import { externalLinks } from '../../config';
 
 const Home = () => {
     const refToMainContent = useRef(null);
@@ -61,7 +62,7 @@ const Home = () => {
                 <div className="home-title">{homeStrings.home.section1_title}</div>
                 <div className="home-text">{homeStrings.home.section1_content}</div>
                 <div className="home-video-wrapper">
-                    <VideoPlayer src="https://www.youtube.com/embed/-FbtfDw3oHY" />
+                    <VideoPlayer src={externalLinks.homeIntroVideo} />
                 </div>
             </div>
             <div className="bg-grey home-section">
