@@ -1,6 +1,6 @@
 import './App.css';
 import { Home, About, Classes, Contact } from "./view";
-import { Navbar, Footer } from './component';
+import { Navbar, Footer, ScrollToTop } from './component';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
 	return (
 		<Router>
+			<ScrollToTop />
 			<Navbar />
 			<div className="App">
 				<Routes>

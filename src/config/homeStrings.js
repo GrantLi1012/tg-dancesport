@@ -43,28 +43,20 @@ const homeStrings = {
     ],
     home_testimonials: [
         {
-            testimonial: "Gloria is scary but Tony is nice",
-            author: "Tony",
-        },
-        {
-            testimonial: "Tony and Gloria are the best dance instructors I have ever had. They are very patient and encouraging. They are also very professional and knowledgeable. I have learned so much from them. I highly recommend them to anyone who wants to learn how to dance.",
-            author: "Josh",
-        },
-        {
-            testimonial: "Wow I can really dance",
-            author: "Masha",
-        },
-        {
-            testimonial: "I love dancing",
+            testimonial: "Tony and Gloria always put in extra time and effort to make sure I am on track to becoming the dancer of my dreams.",
             author: "Cindy",
         },
         {
-            testimonial: "The performance class is so much fun",
-            author: "Gary",
+            testimonial: "Tony and Gloria are excellent teachers that offer clear and concise instructions to dancers of all levels. They are fun, energetic and offer a positive learning environment for anyone interested in the art form.",
+            author: "Anonymous",
         },
         {
-            testimonial: "Now way! I can't believe I can dance",
-            author: "Dom"
+            testimonial: "The ballroom dance classes with Tony and Gloria are a lot of fun. As a beginner it is easy to learn the steps and follow the teachers, as they create a comfortable environment for you to learn how to dance even if you have 2 left feet. It's also an exciting weekly activity to do with your significant other!",
+            author: "Cecilia"
+        },
+        {
+            testimonial: "I am very picky with my dance coaches, but once I found Tony and Gloria, I stopped looking. If you view dance as both a sport and an art form, truly value mastery of the fundamentals, and care about correct and safe body coordination, these are the people to go to. They will put your learning first and help you achieve your potential.",
+            author: "Masha"
         }
     ],
 };
