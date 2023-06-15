@@ -7,3 +7,4 @@ export {default as ClassCards} from "./ClassCards/ClassCards";
 export {default as Carousel} from "./Carousel/Carousel";
 export {default as Testimonial} from "./Testimonial/Testimonial";
 export {default as VideoPlayer} from "./VideoPlayer/VideoPlayer";
+export {default as Collapsible} from "./Collapsible/Collapsible";

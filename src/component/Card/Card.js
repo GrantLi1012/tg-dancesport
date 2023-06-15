@@ -7,7 +7,6 @@ export const Card = (props) => {
 
     const getTextItem = (str) => {
         if (str.includes(':')) {
-            // make text before ':' bold
             const index = str.indexOf(':');
             const firstPart = str.slice(0, index + 1);
             const secondPart = str.slice(index + 1);
