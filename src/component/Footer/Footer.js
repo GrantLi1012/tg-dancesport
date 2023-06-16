@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import './Footer.css';
 import { Button } from '../Button/Button';
+import { subscribe } from '../../service';
 
 const Footer = () => {
     const [email, setEmail] = useState('');
 
-    const handleSubmit = () => {
-        console.log("email: " + email);
-        console.log("email subscription not implemented yet");
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        subscribe(email);
     }
 
     return (
@@ -23,7 +24,7 @@ const Footer = () => {
                     <form className='footer-form'>
                         <input
                             className='footer-input'
-                            name='email'
+                            name='EMAIL'
                             type='email'
                             placeholder='Your Email'
                             onChange={(e) => setEmail(e.target.value)}
@@ -38,8 +39,7 @@ const Footer = () => {
                 <div className='website-rights footer-bottom-right'>A quality website made by <a 
                     href="https://grantli.netlify.app/" 
                     className='footer-author'
-                    target="_blank"
-                    rel="noreferrer"    
+                    target="_blank" rel="noopener noreferrer" 
                 >Grant Li</a></div>
             </div>
         </div>

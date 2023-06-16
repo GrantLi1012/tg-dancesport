@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./Testimonial.css";
 
 import quote from "../../asset/quote.png";

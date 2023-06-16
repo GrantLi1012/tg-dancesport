@@ -3,22 +3,28 @@ import './Contact.css';
 import { tg9, youtube, facebook } from '../../asset';
 import { Button } from '../../component';
 import { externalLinks } from '../../config';
+import { subscribe } from '../../service';
 
 const Contact = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [name, setName] = useState('');
     const [email2, setEmail2] = useState('');
-    const [subscribe, setSubscribe] = useState(false);
+    const [wantSubscribe, setSubscribe] = useState(false);
 
     const handleSubmit = () => {
         if (!email || !message || !name) {
             alert("Please fill out name, email, and message fields to send a message");
             return;
         }
+
+        if (wantSubscribe) {
+            subscribe(email);
+        }
     };
 
     const handleSuscribe = () => {
+        subscribe(email2);
     };
 
     return (
@@ -57,7 +63,7 @@ const Contact = () => {
                         id="subscribe"
                         name="subscribe"
                         value="subscribe"
-                        onChange={() => setSubscribe(!subscribe)}
+                        onChange={() => setSubscribe(!wantSubscribe)}
                     />
                     <label for="subscribe">I agree to receiving marketing and promotional materials</label>
                 </div>
@@ -92,21 +98,21 @@ const Contact = () => {
                 <div className='contact-subsection'>
                     <h1>Follow us on social media!</h1>
                     <li className='contact-social'>
-                        <a href={externalLinks.facebook} target="_blank" rel="noreferrer">
+                        <a href={externalLinks.facebook} target="_blank" rel="noopener noreferrer">
                             <img src={facebook} alt="facebook" className="contact-icon-sm" />
                         </a>
-                        <a href={externalLinks.youtube} target='_blank' rel="noreferrer">
+                        <a href={externalLinks.youtube} target='_blank' rel="noopener noreferrer">
                             <img src={youtube} alt="youtube" className="contact-icon-sm" />
                         </a>
                         <p className="contact-blog-link">
-                            <a href={externalLinks.blog} target='_blank' rel="noreferrer" style={{textDecoration: "none", color: "white"}}>
+                            <a href={externalLinks.blog} target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "white"}}>
                                 Blog
                             </a>
                         </p>
                     </li>
                 </div>
                 <div className='contact-subsection contact-button'>
-                    <a href={externalLinks.emailTo} target='_blank' rel="noreferrer">
+                    <a href={externalLinks.emailTo} target='_blank' rel="noopener noreferrer">
                         <Button
                             buttonStyle='btn--outline'
                             buttonSize='btn--large'

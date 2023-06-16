@@ -45,14 +45,14 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="social-media">
-                            <a href={externalLinks.facebook} target="_blank" rel="noreferrer">
+                            <a href={externalLinks.facebook} target="_blank" rel="noopener noreferrer">
                                 <img src={facebook} alt="facebook" className="icon-sm" />
                             </a>
-                            <a href={externalLinks.youtube} target='_blank' rel="noreferrer">
+                            <a href={externalLinks.youtube} target='_blank' rel="noopener noreferrer">
                                 <img src={youtube} alt="youtube" className="icon-sm" />
                             </a>
                             <p className="blog-link">
-                                <a href={externalLinks.blog} target='_blank' rel="noreferrer" style={{textDecoration: "none", color: "black"}}>
+                                <a href={externalLinks.blog} target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black"}}>
                                     Blog
                                 </a>
                             </p>
