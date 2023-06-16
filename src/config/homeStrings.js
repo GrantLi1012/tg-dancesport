@@ -1,4 +1,4 @@
-import {team2, team6, mashaAmy} from '../asset';
+import {youthClass, techniqueClass, performanceClass} from '../asset';
 
 const homeStrings = {
     home: {
@@ -18,7 +18,7 @@ const homeStrings = {
                 "• Mini Dancer Program (Age 4-6): Learn basic movements and improve coordination",
                 "• Youth Dancer Program (Age 7-11): Introduction to ballroom dance and learn basic steps and techniques",
             ],
-            src: team2,
+            src: youthClass,
         },
         {
             title: "For Adults",
@@ -28,7 +28,7 @@ const homeStrings = {
                 "• Performance Class: Learn a choreographed routine and perform at the end of the session",
                 "• Conditioning Class: Improve your strength, flexibility, and endurance for dancing",
             ],
-            src: team6,
+            src: techniqueClass,
         },
         {
             title: "Wedding Dance & Private Events",
@@ -38,7 +38,7 @@ const homeStrings = {
                 "• Corporate Event: Have a fun dance lesson with your colleagues",
                 "• Private Group Classes: For groups who are interested in learning how to dance together",
             ],
-            src: mashaAmy,
+            src: performanceClass,
         },
     ],
     home_testimonials: [

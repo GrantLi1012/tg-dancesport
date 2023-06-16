@@ -1,5 +1,5 @@
 // source: https://www.tgdancesport.com/classes.html
-import { cat1, cat2, cat3, cat4, cat5, tg2, tg3 } from '../asset';
+import {miniClass, youthClass, techniqueClass, performanceClass, conditioningClass, introClass, tg2, tg3} from '../asset';
 
 const classesStrings = {
     classes: [
@@ -13,7 +13,7 @@ const classesStrings = {
                 "• Build confidence and self esteem.",
                 "• Learn discipline while having fun.",
             ],
-            src: cat1,
+            src: miniClass,
         },
         {
             title: "Young Dancer Program (Age 7-12)",
@@ -26,7 +26,7 @@ const classesStrings = {
                 "• Build confidence and self esteem.",
                 "• Learn discipline while having fun.",
             ],
-            src: cat1,
+            src: youthClass,
         },
         {
             title: "Adult Ballroom Intro Class",
@@ -36,7 +36,7 @@ const classesStrings = {
                 "• Improve agility, balance, core strength, and coordination.",
                 "• Have fun and learn a new skill in a relaxed environment.",
             ],
-            src: cat2,
+            src: introClass,
         },
         {
             title: "Ballroom Technique Class",
@@ -46,7 +46,7 @@ const classesStrings = {
                 "• Demonstrations by professional male and female instructors.",
                 "• Individual attention."
             ],
-            src: cat3,
+            src: techniqueClass,
         },
         {
             title: "Performance Training Class",
@@ -55,7 +55,7 @@ const classesStrings = {
                 "• Proven methods used by top dancers in the world, including many World Champions.",
                 "• Strengthening of the body and mind so you can dance at your maximum capability.",
             ],
-            src: cat4,
+            src: performanceClass,
         },
         {
             title: "Conditioning Group Class",
@@ -64,7 +64,7 @@ const classesStrings = {
                 "• Physical conditioning to improve agility, stamina, core strength, power, and flexibility.",
                 "• Strengthening of the body and targeted stretching for injury prevention.",
             ],
-            src: cat5,
+            src: conditioningClass,
         },
         {
             title: "Private Lessons",

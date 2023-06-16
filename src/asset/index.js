@@ -32,3 +32,11 @@ export {default as tg9} from './tg9.jpg';
 export {default as sponsor1} from './sponsor1.png';
 export {default as sponsor2} from './sponsor2.png';
 export {default as sponsor3} from './sponsor3.png';
+
+// Classes
+export {default as introClass} from './introClass.png';
+export {default as miniClass} from './miniClass.png';
+export {default as youthClass} from './youthClass.png';
+export {default as performanceClass} from './performanceClass.png';
+export {default as techniqueClass} from './techniqueClass.png';
+export {default as conditioningClass} from './conditioningClass.png';
