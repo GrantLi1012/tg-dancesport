@@ -11,6 +11,7 @@ const externalLinks = {
         'https://www.youtube.com/embed/2GMV98R_ODw',
         'https://www.youtube.com/embed/mytF7Y9jhSQ',
     ],
+    emailTo: "mailto:tonyandgloria@gmail.com",
 };
 
 export default externalLinks;

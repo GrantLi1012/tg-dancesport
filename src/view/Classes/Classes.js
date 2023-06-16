@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './Classes.css';
 import { tg4 } from '../../asset';
 import { Button, VideoPlayer, Card, Collapsible } from '../../component';
@@ -11,6 +11,31 @@ const Classes = () => {
 
     const navigate = useNavigate();
 
+    const refKids = useRef(null);
+    const refAdults = useRef(null);
+    const refEvents = useRef(null);
+    const refInfo = useRef(null);
+
+    const scrollToKids = () => window.scrollTo({
+        top: refKids.current.offsetTop - 80,
+        behavior: "smooth"
+    });
+
+    const scrollToAdults = () => window.scrollTo({
+        top: refAdults.current.offsetTop - 80,
+        behavior: "smooth"
+    });
+
+    const scrollToEvents = () => window.scrollTo({
+        top: refEvents.current.offsetTop - 80,
+        behavior: "smooth"
+    });
+
+    const scrollToInfo = () => window.scrollTo({
+        top: refInfo.current.offsetTop - 80,
+        behavior: "smooth"
+    });
+
     return (
         <div className='classes-container'>
             <img className='classes-title-img' alt='two-girls-dancing' src={tg4} />
@@ -22,6 +47,7 @@ const Classes = () => {
                             buttonStyle='btn--outline'
                             buttonSize='btn--medium'
                             className='classes-btn'
+                            onClick={scrollToKids}
                         >
                             FOR KIDS
                         </Button>
@@ -31,6 +57,7 @@ const Classes = () => {
                             buttonStyle='btn--outline'
                             buttonSize='btn--medium'
                             className='classes-btn'
+                            onClick={scrollToAdults}
                         >
                             FOR ADULTS
                         </Button>
@@ -40,6 +67,7 @@ const Classes = () => {
                             buttonStyle='btn--outline'
                             buttonSize='btn--medium'
                             className='classes-btn'
+                            onClick={scrollToEvents}
                         >
                             FOR EVENTS
                         </Button>
@@ -49,6 +77,7 @@ const Classes = () => {
                             buttonStyle='btn--outline'
                             buttonSize='btn--medium'
                             className='classes-btn'
+                            onClick={scrollToInfo}
                         >
                             MORE INFO
                         </Button>
@@ -56,7 +85,7 @@ const Classes = () => {
                 </div>
                 <div className="classes-down-arrow"></div>
             </div>
-            <div className='classes-section'>
+            <div className='classes-section' ref={refKids}>
                 <div className='classes-subtitle'>
                     For Kids
                 </div>
@@ -73,7 +102,7 @@ const Classes = () => {
                     })}
                 </div>
             </div>
-            <div className='classes-section-grey'>
+            <div className='classes-section-grey' ref={refAdults}>
                 <div className='classes-subtitle'>
                     For Adults
                 </div>
@@ -90,7 +119,7 @@ const Classes = () => {
                     })}
                 </div>
             </div>
-            <div className='classes-section-special'>
+            <div className='classes-section-special' ref={refEvents}>
                 <div className='classes-subtitle-special'>
                     Wedding Dance, Birthday Party, and More
                 </div>
@@ -107,7 +136,7 @@ const Classes = () => {
                     <p className='classes-contact-link' onClick={() => {navigate('/contact')}}>Contact us </p> for a free consultation.
                 </div>
             </div>
-            <div className='classes-section-special-2'>
+            <div className='classes-section-special-2' ref={refInfo}>
                 <div className='classes-subtitle-special'>
                     More Info & FAQ
                 </div>

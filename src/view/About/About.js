@@ -2,8 +2,7 @@ import React, { useRef } from 'react';
 import './About.css';
 import { tg1, tg2, tg3, tg4, tg5, tg6, tg7, tg8 } from '../../asset';
 import { Carousel } from '../../component';
-import { aboutStrings } from '../../config';
-
+import { aboutStrings, sponsorsInfo } from '../../config';
 
 const About = () => {
     const refToMainContent = useRef(null);
@@ -38,7 +37,7 @@ const About = () => {
                 <h1>Tony Chong & Gloria Chien</h1>
                 <div className="down-arrow" onClick={handleScrollToMainContent}></div>
             </div>
-            <div className="about-section" ref={refToMainContent}>
+            <div className="about-section divider" ref={refToMainContent}>
                 <div className='about-section-subtitle'>
                     Who We Are
                 </div>
@@ -60,7 +59,7 @@ const About = () => {
                     );
                 })}
             </div>
-            <div className="about-gallery">
+            <div className="about-gallery divider">
                 <div className='about-section-subtitle'>
                     Gallery
                 </div>
@@ -71,7 +70,25 @@ const About = () => {
                         whiteBtn
                     />
                 </div>
-                
+            </div>
+            <div className="about-section">
+                <div className='about-section-subtitle'>
+                    Our Sponsors
+                </div>
+                <div className='about-sponsors'>
+                    {sponsorsInfo.map((item, index) => {
+                        return (
+                            <div className='about-sponsor-item'>
+                                <a href={item.link} target='_blank' rel="noreferrer" style={{textDecoration: "none", color: "white"}}>
+                                    <img alt={"sponsor " + item.name} className="about-sponsor-img" src={item.image} />
+                                </a>
+                                <div className='about-sponsor-text'>
+                                    {item.name}
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )

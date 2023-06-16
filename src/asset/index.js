@@ -28,3 +28,7 @@ export {default as tg5} from './tg5.jpg';
 export {default as tg6} from './tg6.jpg';
 export {default as tg7} from './tg7.jpg';
 export {default as tg8} from './tg8.jpg';
+export {default as tg9} from './tg9.jpg';
+export {default as sponsor1} from './sponsor1.png';
+export {default as sponsor2} from './sponsor2.png';
+export {default as sponsor3} from './sponsor3.png';
