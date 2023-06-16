@@ -93,12 +93,12 @@ const Contact = () => {
                     <h1>Follow us on social media!</h1>
                     <li className='contact-social'>
                         <a href={externalLinks.facebook} target="_blank" rel="noreferrer">
-                            <img src={facebook} alt="facebook" className="icon-sm" />
+                            <img src={facebook} alt="facebook" className="contact-icon-sm" />
                         </a>
                         <a href={externalLinks.youtube} target='_blank' rel="noreferrer">
-                            <img src={youtube} alt="youtube" className="icon-sm" />
+                            <img src={youtube} alt="youtube" className="contact-icon-sm" />
                         </a>
-                        <p className="blog-link">
+                        <p className="contact-blog-link">
                             <a href={externalLinks.blog} target='_blank' rel="noreferrer" style={{textDecoration: "none", color: "white"}}>
                                 Blog
                             </a>
