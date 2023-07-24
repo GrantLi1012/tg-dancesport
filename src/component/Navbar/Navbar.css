@@ -92,25 +92,10 @@
 	cursor: pointer;
 }
 
-.blog-link {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  margin: -5px 0 0 5px;
-  cursor: pointer;
-}
-
 @media (hover: hover) {
   .icon-sm:hover {
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-  }
-  
-  .blog-link:hover {
-    transform: scale(1.2);
-    text-decoration: underline;
-    transition: all 0.2s ease-out;
-    font-weight: 500;
   }
 }
 

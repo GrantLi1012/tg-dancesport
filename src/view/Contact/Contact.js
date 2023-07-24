@@ -104,11 +104,6 @@ const Contact = () => {
                         <a href={externalLinks.youtube} target='_blank' rel="noopener noreferrer">
                             <img src={youtube} alt="youtube" className="contact-icon-sm" />
                         </a>
-                        <p className="contact-blog-link">
-                            <a href={externalLinks.blog} target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "white"}}>
-                                Blog
-                            </a>
-                        </p>
                     </li>
                 </div>
                 <div className='contact-subsection contact-button'>

@@ -1,5 +1,5 @@
 // source: https://www.tgdancesport.com/classes.html
-import {miniClass, youthClass, techniqueClass, performanceClass, conditioningClass, introClass, tg2, tg3} from '../asset';
+import {miniClass, youthClass, techniqueClass, performanceClass, conditioningClass, introClass, intro2, tg10} from '../asset';
 
 const classesStrings = {
     classes: [
@@ -16,7 +16,7 @@ const classesStrings = {
             src: miniClass,
         },
         {
-            title: "Young Dancer Program (Age 7-12)",
+            title: "Young (7-10) & Junior (11+) Dance Program",
             texts: [
                 "• Introduction to basic ballroom dance steps and figures.",
                 "• Improve agility, balance, core strength, and coordination.",
@@ -35,6 +35,16 @@ const classesStrings = {
                 "• Learn to dance choreography at social events and parties.",
                 "• Improve agility, balance, core strength, and coordination.",
                 "• Have fun and learn a new skill in a relaxed environment.",
+            ],
+            src: intro2,
+        },
+        {
+            title: "Adult Ballroom 101 Class",
+            texts: [
+                "• Pre-requisite: Adult Ballroom Intro or prior dance experience",
+                "• Learn more figures and build on basics.",
+                "• Apply more technique to improve dancing.",
+                "• Open to singles and couples",
             ],
             src: introClass,
         },
@@ -74,32 +84,18 @@ const classesStrings = {
                 "• Teaching with structured methodology.",
                 "• For anyone who is interested in individual attention to accelerate the learning process.",
             ],
-            src: tg2,
-        },
-        {
-            title: "Wedding Dances &  Private Party Events",
-            texts: [
-                "Do you want to impress your guests with a beautiful wedding dance?",
-                "Or do you want to have a fun and exciting birthday dancing party?",
-                "Or perhaps you want to have a unique team building event for your company?",
-                "We can help you make your event a memorable one!",
-            ],
-            src: tg3,
+            src: tg10,
         },
     ],
     faq: [
         {
             question: "Do I need a partner?",
-            answer: "No, you don't need a partner. We will pair you up with other students in the class."
-        },
-        {
-            question: "What should I wear?",
-            answer: "Wear comfortable clothes and shoes that you can move in. For shoes, wear something with a smooth sole that won't stick to the floor."
+            answer: "No, you do not need a partner. To accelerate learning, partner switching will be encouraged and you will have the opportunity to dance with other students and the instructor."
         },
         {
             question: "Where are the classes held?",
-            answer: "The classes are held at Scotish Centre and Crystal Ballroom. Contact us to find out the exact location and time for your classes",
-        }
+            answer: "The Adult Social classes are held at Scottish Cultural Centre and the Kids Classes are in Richmond."
+        },
     ]
 };
 

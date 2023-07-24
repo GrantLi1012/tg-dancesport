@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import './About.css';
-import { tg1, tg2, tg3, tg4, tg5, tg6, tg7, tg8 } from '../../asset';
+import { tg1, tg2, tg3, tg4, tg5, tg6, tg7, tg8, tp1, tp2, tp3, tp4, tp5, tp6, tp7, tp8, tp9, tp10 } from '../../asset';
 import { Carousel } from '../../component';
 import { aboutStrings, sponsorsInfo } from '../../config';
 
 const About = () => {
     const refToMainContent = useRef(null);
-    const aboutGalleryList = [tg1, tg2, tg3, tg4, tg5, tg6, tg7, tg8];
+    const aboutGalleryList = [tp1, tp2, tp3, tp4, tp5, tp6, tp7, tp8, tp9, tp10, tg1, tg2, tg3, tg4, tg5, tg6, tg7, tg8];
 
     const handleScrollToMainContent = () => {
         window.scrollTo({
@@ -34,7 +34,7 @@ const About = () => {
         <div className="about-container">
             <img alt="tg1" className="about-title-img"  src={tg1} />
             <div className="about-title">
-                <h1>Tony Chong & Gloria Chien</h1>
+                <h1>Anthony Chong & Gloria Chien</h1>
                 <div className="down-arrow" onClick={handleScrollToMainContent}></div>
             </div>
             <div className="about-section divider" ref={refToMainContent}>

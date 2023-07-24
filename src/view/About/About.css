@@ -26,7 +26,6 @@
     animation: slideUp ease 1s forwards 0s;
     opacity: 0;
     margin: 5vh 0 0 0;
-    font-family: 'Permanent Marker', cursive;
 }
 
 .down-arrow {

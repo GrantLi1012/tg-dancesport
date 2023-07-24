@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Classes = () => {
     const kidsClasses = [classesStrings.classes[0], classesStrings.classes[1]];
-    const adultClasses = [classesStrings.classes[2], classesStrings.classes[3], classesStrings.classes[4], classesStrings.classes[5], classesStrings.classes[6]];
+    const adultClasses = [classesStrings.classes[2], classesStrings.classes[3], classesStrings.classes[4], classesStrings.classes[5], classesStrings.classes[6], classesStrings.classes[7]];
 
     const navigate = useNavigate();
 
@@ -101,6 +101,28 @@ const Classes = () => {
                         );
                     })}
                 </div>
+                <div className='classes-subtitle'>
+                    Kids Program Fall 2023
+                </div>
+                <div className='classes-text'>
+                    <div style={{fontWeight:500}}>Dates:</div>
+                    <div>Sept 09, 16, 23, 30;</div>
+                    <div>Oct 14, 21, 28;</div>
+                    <div>Nov 04, 18, 25;</div>
+                    <div>Dec 02, 09;</div>
+                    <div style={{fontWeight:500}}>Address:</div>
+                    <div>140-8833 Odlin Crescent, Richmond;</div>
+                    <div>*Plenty of free parking in the back*</div>
+                    <div style={{fontWeight:500}}>Time:</div>
+                    <div>11:00-11:45  Mini Dancer 4-6 y.o.;</div>
+                    <div>1:00-1:50  Junior Dancer 11+;</div>
+                    <div style={{fontWeight:500}}>Tuition: $260. Additional Siblings:$230</div>
+                    <div>*No refunds </div>
+                    <div>**All discounts and promotions can not be combined.</div>
+                    <div>***We reserve the right to cancel classes with full refund if it does not meet minimum registration requirements or for un-forseen circumstances. </div>
+                    <div>​Contact us for more information.</div>
+                    
+                </div>
             </div>
             <div className='classes-section-grey' ref={refAdults}>
                 <div className='classes-subtitle'>
@@ -118,10 +140,37 @@ const Classes = () => {
                         );
                     })}
                 </div>
+                <div className='classes-subtitle'>
+                    Adult Classes Fall 2023
+                </div>
+                <div className='classes-text'>
+                    <div style={{fontWeight:500}}>Ballroom Intro</div>
+                    <div>Date: Sept. 06, 13, 20, 27, Oct. 04, 11, 18, 25, Nov. 01, 08, 15, 22, 2023</div>
+                    <div>Time: Wednesdays 6:30-7:25pm</div>
+                    <div>Location: Scottish Cultural Centre 8886 Hudson St.</div>
+                    <div style={{fontWeight:500}}>Ballroom 101</div>
+                    <div>Date: Sept. 06, 13, 20, 27, Oct. 04, 11, 18, 25, Nov. 01, 08, 15, 22, 2023</div>
+                    <div>Time: Wednesdays 7:30-8:25pm</div>
+                    <div>Location: Scottish Cultural Centre 8886 Hudson St.</div>
+                    <div style={{fontWeight:500}}>Tuition</div>
+                    <div>Full Semester (12 Classes) $260</div>
+                    <div>Any 2 Months (8 Classes) $180</div>
+                    <div>Any 1 Month (4 Classes) $100</div>
+                    <div style={{fontWeight:500}}>Registration</div>
+                    <div>Please email us directly at tonyandgloria@gmail.com for registration and details, or enroll on Eventbrite 
+                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", textDecoration:"underline", fontWeight: "400"}} href="https://www.eventbrite.ca/e/adult-ballroom-dance-classes-tickets-385856315627">
+                            HERE
+                        </a>
+                    </div>
+                    <div>*No refunds </div>
+                    <div>**All discounts and promotions can not be combined.</div>
+                    <div>***We reserve the right to cancel classes with full refund if it does not meet minimum registration requirements or for un-forseen circumstances. </div>
+                    <div>​Contact us for more information.</div>
+                </div>
             </div>
             <div className='classes-section-special' ref={refEvents}>
                 <div className='classes-subtitle-special'>
-                    Wedding Dance, Birthday Party, and More
+                    Company Event, Birthday Party, and More
                 </div>
                 {
                     classesStrings.classes[7].texts.map((item, index) => {

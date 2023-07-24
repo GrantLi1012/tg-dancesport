@@ -3,8 +3,8 @@ import {youthClass, techniqueClass, performanceClass} from '../asset';
 const homeStrings = {
     home: {
         title: "TGDANCESPORT",
-        slogan: "Group classes. Private lessons. Wedding dances. And so much more.",
-        section1_title: "Happy, Healthy, and Esxtraordinary Life Awaits, Start Dancing!",
+        slogan: "Group classes. Private lessons. Sport training. And so much more.",
+        section1_title: "A HAPPY, HEALTHY AND EXTRAORDINARY LIFE AWAITS. START DANCING WITH US!",
         section1_content: "​Welcome to TGDancesport! Tony and Gloria are internationally trained professional ballroom dance instructors based in Vancouver BC, Canada. You will find all the information about their group classes for beginners, social dancers, and competitors on this website. They offer ballroom dance lessons for everyone starting from age 4 to adults of all ages. Come join the fun and learn how to ballroom dance in a friendly and relaxed environment. Looking for the best ballroom dance instructors who are also world class competitive dancers and experienced teachers? Register for their group classes and learn from Champions who are passionate about teaching you how to dance!",
         section2_title: "Classes We Offer",
         section2_content: "We offer a variety of classes for all ages and levels. Here are some of our highlighted classes. To find out which class suits you the best, feel free to reach out to us! We are happy to help you find the right class for you!",
@@ -16,24 +16,23 @@ const homeStrings = {
             title: "For Kids",
             text: [
                 "• Mini Dancer Program (Age 4-6): Learn basic movements and improve coordination",
-                "• Youth Dancer Program (Age 7-11): Introduction to ballroom dance and learn basic steps and techniques",
+                "• Young (7-10) & Junior (11+) Dance Program: Introduction to ballroom dance and learn basic steps and techniques",
             ],
             src: youthClass,
         },
         {
             title: "For Adults",
             text: [
-                "• Beginner Program: Learn basic steps and techniques of ballroom dance",
+                "• Adult Social Class: Learn basic steps and techniques of ballroom dance",
                 "• Technique Class: Improve your dancing with proper techniques and exercises",
-                "• Performance Class: Learn a choreographed routine and perform at the end of the session",
-                "• Conditioning Class: Improve your strength, flexibility, and endurance for dancing",
+                "• Performance Training Class: Drills and exercises designed specifically for dancers",
+                "• Conditioning Class: Improve your strength, flexibility, stamina and core for dancing",
             ],
             src: techniqueClass,
         },
         {
-            title: "Wedding Dance & Private Events",
+            title: "Private Events",
             text: [
-                "• Wedding Dance: Learn a choreographed routine for your first dance",
                 "• Birthday Party: Have a fun dance lesson with your friends and family",
                 "• Corporate Event: Have a fun dance lesson with your colleagues",
                 "• Private Group Classes: For groups who are interested in learning how to dance together",

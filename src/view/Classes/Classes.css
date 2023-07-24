@@ -31,7 +31,12 @@
     animation: slideUp ease 1s forwards 0s;
     opacity: 0;
     margin: 5vh 0 0 0;
-    font-family: 'Permanent Marker', cursive;
+}
+
+.classes-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
 }
 
 .classes-down-arrow {

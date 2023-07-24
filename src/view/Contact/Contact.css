@@ -93,14 +93,6 @@
     filter: invert(100%);
 }
 
-.contact-blog-link {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    margin: 5px 0 0 10px;
-    cursor: pointer;
-}
-
 .contact-button {
     padding-bottom: 5vh;
     padding-top: 5vh;
