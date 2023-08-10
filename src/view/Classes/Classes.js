@@ -158,7 +158,7 @@ const Classes = () => {
                     <div>Any 1 Month (4 Classes) $100</div>
                     <div style={{fontWeight:500}}>Registration</div>
                     <div>Please email us directly at tonyandgloria@gmail.com for registration and details, or enroll on Eventbrite 
-                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", textDecoration:"underline", fontWeight: "400"}} href="https://www.eventbrite.ca/e/adult-ballroom-dance-classes-tickets-385856315627">
+                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", fontWeight: "400"}} href="https://www.eventbrite.ca/e/adult-ballroom-dance-classes-tickets-385856315627">
                             HERE
                         </a>
                     </div>
