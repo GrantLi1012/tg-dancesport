@@ -56,6 +56,10 @@ const homeStrings = {
         {
             testimonial: "I am very picky with my dance coaches, but once I found Tony and Gloria, I stopped looking. If you view dance as both a sport and an art form, truly value mastery of the fundamentals, and care about correct and safe body coordination, these are the people to go to. They will put your learning first and help you achieve your potential.",
             author: "Masha"
+        },
+        {
+            testimonial: "They're not just dance coaches, they're the dynamic duo of encouragement.",
+            author: "Grant"
         }
     ],
 };
