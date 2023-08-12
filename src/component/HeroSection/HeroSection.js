@@ -3,7 +3,7 @@ import './HeroSection.css';
 import { useNavigate } from 'react-router-dom';
 
 import homeVideo from '../../asset/home-video.mp4';
-import poster from '../../asset/home-poster.jpeg';
+import poster from '../../asset/tg9.jpg';
 
 import { homeStrings } from '../../config';
 import { Button } from '../Button/Button';

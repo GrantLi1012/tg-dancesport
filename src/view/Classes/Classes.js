@@ -106,8 +106,8 @@ const Classes = () => {
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>Sept 09, 16, 23, 30;</div>
-                    <div>Oct 14, 21, 28;</div>
+                    <div>Sep 09, 16, 23, 30;</div>
+                    <div>Oct 7, 21, 28;</div>
                     <div>Nov 04, 18, 25;</div>
                     <div>Dec 02, 09;</div>
                     <div style={{fontWeight:500}}>Address:</div>
@@ -115,13 +115,13 @@ const Classes = () => {
                     <div>*Plenty of free parking in the back*</div>
                     <div style={{fontWeight:500}}>Time:</div>
                     <div>11:00-11:45  Mini Dancer 4-6 y.o.;</div>
+                    <div>12:00-12:50  Young Dancer 7-10 y.o.;</div>
                     <div>1:00-1:50  Junior Dancer 11+;</div>
                     <div style={{fontWeight:500}}>Tuition: $260. Additional Siblings:$230</div>
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
                     <div>***We reserve the right to cancel classes with full refund if it does not meet minimum registration requirements or for un-forseen circumstances. </div>
                     <div>​Contact us for more information.</div>
-                    
                 </div>
             </div>
             <div className='classes-section-grey' ref={refAdults}>

@@ -73,7 +73,7 @@
 
 .cards__item__text {
     color: #252e48;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.2rem;
     margin: 0 0 15px 0;
     font-weight: 350;
@@ -90,6 +90,6 @@
     }
     
     .cards__item__text {
-        font-size: 0.875rem;
+        font-size: 1rem;
     }
 }

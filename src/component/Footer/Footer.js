@@ -8,7 +8,10 @@ const Footer = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        subscribe(email);
+        const res = subscribe(email);
+        if (res) {
+            setEmail('');
+        }
     }
 
     return (

@@ -11,6 +11,7 @@ const externalLinks = {
         'https://www.youtube.com/embed/mytF7Y9jhSQ',
     ],
     emailTo: "mailto:tonyandgloria@gmail.com",
+    contactForm: "https://us17.list-manage.com/contact-form?u=9426f692adf3fa5f57adaffbf&form_id=b2b694804b35278da1cd14fe8b8338ac",
 };
 
 export default externalLinks;

@@ -93,9 +93,13 @@
     filter: invert(100%);
 }
 
-.contact-button {
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
     padding-bottom: 5vh;
     padding-top: 5vh;
+    gap: 20px;
+    justify-content: left;
 }
 
 @media screen and (max-width: 900px) {
@@ -119,5 +123,9 @@
 
     .margin-r {
         margin: 0;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
     }
 }
