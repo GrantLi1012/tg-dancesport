@@ -60,7 +60,27 @@ const homeStrings = {
         {
             testimonial: "They're not just dance coaches, they're the dynamic duo of encouragement.",
             author: "Grant"
-        }
+        },
+        {
+            testimonial: "I met Tony and Gloria many years ago. What inspired me to pursue my passion with them is their dedication to their students as they continue to strive to become better teachers as they frequently travel back to Italy to train under their coaching",
+            author: "John"
+        },
+        {
+            testimonial: "Got dragged in by a friend, tried a few lessons, never looked back. Thanks Tony & Gloria for being the best coaches in dance and in life!",
+            author: "Josh"
+        },
+        {
+            testimonial: "Tony and Gloria are wonderful instructors with a fun and engaging dynamic. They make the classes enjoyable all while ensuring you are learning the proper techniques. No matter what your skill level, they are super encouraging and able to find creative and intuitive ways to help you be confident on the dance floor!",
+            author: "Anonymous"
+        },
+        {
+            testimonial: "Tony and Gloria's philosophy on fitness and technique made me feel like I had explosive improvement after my first handful of classes with them. I have a LONG way to go still but I feel like my technique habits get a little better everytime I see them.",
+            author: "Tim"
+        },
+        {
+            testimonial: "Dancing under TG Dancesport has been a wonderfully welcoming experience on the path to excellence. Taking part in their performance class has been great for targeting technique and building stamina so we are competition ready. The private coaching lessons are so helpful. I feel safe and encouraged under their instruction. Being part of the TG team feels like family!",
+            author: "Dom"
+        },
     ],
 };
 
