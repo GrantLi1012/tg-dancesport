@@ -81,6 +81,18 @@ const homeStrings = {
             testimonial: "Dancing under TG Dancesport has been a wonderfully welcoming experience on the path to excellence. Taking part in their performance class has been great for targeting technique and building stamina so we are competition ready. The private coaching lessons are so helpful. I feel safe and encouraged under their instruction. Being part of the TG team feels like family!",
             author: "Dom"
         },
+        {
+            testimonial: "Tony and Gloria inspire me every day to become a better dancer. Both on and off the dance floor, they are my role models and have helped me through many ups and downs. They make dancing so much fun and meaningful - I'm so happy I chose them as coaches.",
+            author: "Amy"
+        },
+        {
+            testimonial: "We highly recommend Tony and Gloria's ballroom dance classes. Their passion for dancing is evident, and their expertise as instructors is impressive. Their patient guidance and attention to detail have helped us improve our dancing and their classes are well structured, allowing for noticeable progress week after week.",
+            author: "Melanie & Nolan"
+        },
+        {
+            testimonial: "My dance partner and I were blessed to have Tony and Gloria as our coaches after we had been dancing and competing for a few years and were wanting something more. We chose them as they were beautiful dancers whom we had seen compete and perform many times, and we knew they were teaching the most up-to-date information from a school of world champions in Europe. Tony and Gloria blew us out of the water, exceeding our expectations on multiple fronts. We found ourselves with not just an incredible set of dance coaches but wonderful mentors and friends for life.",
+            author: "Victoria"
+        },
     ],
 };
 
