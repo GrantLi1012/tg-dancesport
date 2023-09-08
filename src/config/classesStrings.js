@@ -84,7 +84,6 @@ const classesStrings = {
                 "Or perhaps you want to have a unique team building event for your company?",
                 "We can help you make your event a memorable one!",
             ],
-            src: tg3,
         },
     ],
     faq: [
