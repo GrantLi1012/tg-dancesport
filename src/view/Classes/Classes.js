@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Classes = () => {
     const kidsClasses = [classesStrings.classes[0], classesStrings.classes[1]];
-    const adultClasses = [classesStrings.classes[2], classesStrings.classes[3], classesStrings.classes[4], classesStrings.classes[5], classesStrings.classes[6], classesStrings.classes[7]];
+    const adultClasses = [classesStrings.classes[2], classesStrings.classes[3], classesStrings.classes[4], classesStrings.classes[5], classesStrings.classes[6]];
 
     const navigate = useNavigate();
 
