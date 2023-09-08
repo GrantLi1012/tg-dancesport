@@ -76,6 +76,16 @@ const classesStrings = {
             ],
             src: tg10,
         },
+        {
+            title: "Wedding Dances &  Private Party Events",
+            texts: [
+                "Do you want to impress your guests with a beautiful wedding dance?",
+                "Or do you want to have a fun and exciting birthday dancing party?",
+                "Or perhaps you want to have a unique team building event for your company?",
+                "We can help you make your event a memorable one!",
+            ],
+            src: tg3,
+        },
     ],
     faq: [
         {
