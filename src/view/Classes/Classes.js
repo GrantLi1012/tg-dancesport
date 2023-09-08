@@ -114,7 +114,7 @@ const Classes = () => {
                     <div>140-8833 Odlin Crescent, Richmond;</div>
                     <div>*Plenty of free parking in the back*</div>
                     <div style={{fontWeight:500}}>Time:</div>
-                    <div>11:00-11:45  Mini Dancer 4-6 y.o.;</div>
+                    <div>12:00-12:50  Mini Dancer 4-6 y.o.;</div>
                     <div>12:00-12:50  Young Dancer 7-10 y.o.;</div>
                     <div>1:00-1:50  Junior Dancer 11+;</div>
                     <div style={{fontWeight:500}}>Tuition: $260. Additional Siblings:$230</div>
