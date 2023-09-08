@@ -148,7 +148,7 @@ const Classes = () => {
                     <div>Date: Sept. 06, 13, 20, 27, Oct. 04, 11, 18, 25, Nov. 01, 08, 15, 22, 2023</div>
                     <div>Time: Wednesdays 6:30-7:25pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St.</div>
-                    <div style={{fontWeight:500}}>Ballroom 101</div>
+                    <div style={{fontWeight:500}}>Technique 101</div>
                     <div>Date: Sept. 06, 13, 20, 27, Oct. 04, 11, 18, 25, Nov. 01, 08, 15, 22, 2023</div>
                     <div>Time: Wednesdays 7:30-8:25pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St.</div>
