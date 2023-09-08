@@ -39,17 +39,7 @@ const classesStrings = {
             src: intro2,
         },
         {
-            title: "Adult Ballroom 101 Class",
-            texts: [
-                "• Pre-requisite: Adult Ballroom Intro or prior dance experience",
-                "• Learn more figures and build on basics.",
-                "• Apply more technique to improve dancing.",
-                "• Open to singles and couples",
-            ],
-            src: introClass,
-        },
-        {
-            title: "Ballroom Technique Class",
+            title: "Ballroom Technique 101 Class",
             texts: [
                 "• Clear and easy to understand instructions.",
                 "• Stay updated with the latest development in technique.",
