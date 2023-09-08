@@ -1,5 +1,5 @@
 // source: https://www.tgdancesport.com/classes.html
-import {miniClass, youthClass, techniqueClass, performanceClass, conditioningClass, introClass, intro2, tg10} from '../asset';
+import {miniClass, youthClass, techniqueClass, performanceClass, conditioningClass, intro2, tg10} from '../asset';
 
 const classesStrings = {
     classes: [
