@@ -102,22 +102,22 @@ const Classes = () => {
                     })}
                 </div>
                 <div className='classes-subtitle'>
-                    Kids Program Fall 2023
+                    Kids Program Winter 2024
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>Sep 09, 16, 23, 30;</div>
-                    <div>Oct 7, 21, 28;</div>
-                    <div>Nov 04, 18, 25;</div>
-                    <div>Dec 02, 09;</div>
+                    <div>Jan 20, 27;</div>
+                    <div>Feb 03, 10, 17, 24;</div>
+                    <div>March 02;</div>
+                    <div> </div>
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>140-8833 Odlin Crescent, Richmond;</div>
                     <div>*Plenty of free parking in the back*</div>
                     <div style={{fontWeight:500}}>Time:</div>
                     <div>12:00-12:50  Mini Dancer 4-6 y.o.;</div>
-                    <div>12:00-12:50  Young Dancer 7-10 y.o.;</div>
+                    <div>12:00-12:50  Young Dancer 7-10 y.o., and beginners;</div>
                     <div>1:00-1:50  Junior Dancer 11+;</div>
-                    <div style={{fontWeight:500}}>Tuition: $260. Additional Siblings:$230</div>
+                    <div style={{fontWeight:500}}>Tuition: $150.</div>
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
                     <div>***We reserve the right to cancel classes with full refund if it does not meet minimum registration requirements or for un-forseen circumstances. </div>
