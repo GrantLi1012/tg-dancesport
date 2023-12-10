@@ -6,6 +6,8 @@ import { homeStrings } from '../../config';
 import { team, team2, team3, team4, team5, team6 } from '../../asset';
 import { externalLinks } from '../../config';
 
+import gala from "../../asset/gala.jpg";
+
 const Home = () => {
     const refToMainContent = useRef(null);
     const galleryList = [team, team2, team3, team4, team5, team6];
@@ -58,6 +60,22 @@ const Home = () => {
             <HeroSection
                 handleClick={handleScrollToMainContent}
             />
+            <div className="bg-grey home-section">
+                <div className="home-title">Winter Gala <span role='img' aria-label='xmas'>🎄✨</span> Come celebrate this Chritmas with us!</div>
+                <img alt='winter-gala' src={gala} style={{
+                    maxWidth: "600px",
+                    width: "100%",
+                    paddingBottom: "20px"
+                }} />
+                <Button
+                    buttonStyle='btn--dark'
+                    buttonSize='btn--large'
+                    onClick={() => window.open('https://www.eventbrite.ca/e/759543925327?aff=oddtdtcreator', '_blank') 
+                    }
+                >
+                    GET TICKETS
+                </Button>
+            </div>
             <div className="bg-white home-section" ref={refToMainContent}>
                 <div className="home-title">{homeStrings.home.section1_title}</div>
                 <div className="home-text">{homeStrings.home.section1_content}</div>
