@@ -60,8 +60,15 @@ const Home = () => {
             <HeroSection
                 handleClick={handleScrollToMainContent}
             />
-            <div className="bg-grey home-section">
-                <div className="home-title">Winter Gala <span role='img' aria-label='xmas'>🎄✨</span> Come celebrate this Chritmas with us!</div>
+            <div className="bg-grey home-section" ref={refToMainContent}>
+                <div className="home-title">{homeStrings.home.section1_title}</div>
+                <div className="home-text">{homeStrings.home.section1_content}</div>
+                <div className="home-video-wrapper">
+                    <VideoPlayer src={externalLinks.homeIntroVideo} />
+                </div>
+            </div>
+            <div className="bg-white home-section">
+                <div className="home-title"><span role='img' aria-label='xmas'>🎄</span>Special Event<span role='img' aria-label='xmas'>✨</span></div>
                 <img alt='winter-gala' src={gala} style={{
                     maxWidth: "600px",
                     width: "100%",
@@ -75,13 +82,6 @@ const Home = () => {
                 >
                     GET TICKETS
                 </Button>
-            </div>
-            <div className="bg-white home-section" ref={refToMainContent}>
-                <div className="home-title">{homeStrings.home.section1_title}</div>
-                <div className="home-text">{homeStrings.home.section1_content}</div>
-                <div className="home-video-wrapper">
-                    <VideoPlayer src={externalLinks.homeIntroVideo} />
-                </div>
             </div>
             <div className="bg-grey home-section">
                 <div className="home-title">{homeStrings.home.section2_title}</div>
