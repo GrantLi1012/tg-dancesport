@@ -145,30 +145,34 @@ const Classes = () => {
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Ballroom Intro in Calgary</div>
-                    <div>Date: Jan. 27;</div>
+                    <div>Date: </div>
+                    <div>Jan. 27;</div>
                     <div>Feb 10, 24;</div>
                     <div>Mar. 02, 16, 30</div>
                     <div>Time: Saturdays 1:00-2:00pm</div>
                     <div>Location: Olympia Dance Club, 517 16th Ave NE, Calgary, AB.</div>
+                    
                     <div style={{fontWeight:500}}>Technique 101</div>
-                    <div>Date: Jan. 17, 24,31;</div>
+                    <div>Date:</div>
+                    <div>Jan. 17, 24,31;</div>
                     <div>Feb. 07, 14, 21, 28;</div>
                     <div>Mar. 06, 13, 20, 27;</div>
                     <div>Time: Wednesdays 7:30-8:25pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St., Vancouver </div>
+                    
                     <div style={{fontWeight:500}}>Competitor Training Class</div>
                     <div>Time: Wednesdays 8:30-10:00pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St., Vancouver </div>
+                    
                     <div style={{fontWeight:500}}>Tuition</div>
                     <div>Please contact us for pricing info</div>
-                    <div>Full Semester</div>
-                    <div>Monthly</div>
-                    <div>Drop in</div>
-            
+                    <div></div>
+                    <div></div>
+                    <div></div>
                     <div style={{fontWeight:500}}>Registration</div>
                     <div>Please email us directly at tonyandgloria@gmail.com for registration and details, or enroll on Eventbrite 
                         <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", fontWeight: "400"}} href="https://www.eventbrite.ca/e/adult-ballroom-dance-classes-tickets-385856315627">
-                            HERE
+                            HERE https://www.eventbrite.ca/e/787871453727?aff=oddtdtcreator</div/
                         </a>
                     </div>
                     <div>*No refunds </div>
