@@ -171,8 +171,8 @@ const Classes = () => {
                     <div></div>
                     <div style={{fontWeight:500}}>Registration</div>
                     <div>Please email us directly at tonyandgloria@gmail.com for registration and details, or enroll on Eventbrite for Calgary Intro Class
-                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", fontWeight: "400"}} href=https://www.eventbrite.ca/e/adult-intro-ballroom-dance-class-calgary-winter-2024-tickets-787871453727?aff=oddtdtcreator&lang=en-ca&status=40&locale=en_CA&keep_tld=1&view=listing>
-                            HERE
+                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", fontWeight: "400"}} href=https://www.eventbrite.ca/e/adult-intro-ballroom-dance-class-calgary-winter-2024-tickets-787871654327>
+                         HERE
                         </a>
                     </div>
                     <div>*No refunds </div>
