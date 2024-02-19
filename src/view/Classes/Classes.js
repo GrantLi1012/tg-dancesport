@@ -151,7 +151,7 @@ const Classes = () => {
                     <div>Mar. 02, 16, 30</div>
                     <div>Time: Saturdays 1:00-2:00pm</div>
                     <div>Location: Olympia Dance Club, 517 16th Ave NE, Calgary, AB.</div>
-                    
+                    </div>
                     <div style={{fontWeight:500}}>Technique 101</div>
                     <div>Date:</div>
                     <div>Jan. 17, 24,31;</div>
@@ -159,7 +159,7 @@ const Classes = () => {
                     <div>Mar. 06, 13, 20, 27;</div>
                     <div>Time: Wednesdays 7:30-8:25pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St., Vancouver </div>
-                    
+                    </div>
                     <div style={{fontWeight:500}}>Competitor Training Class</div>
                     <div>Time: Wednesdays 8:30-10:00pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St., Vancouver </div>
@@ -171,7 +171,7 @@ const Classes = () => {
                     <div></div>
                     <div style={{fontWeight:500}}>Registration</div>
                     <div>Please email us directly at tonyandgloria@gmail.com for registration and details, or enroll on Eventbrite for Calgary Intro Class
-                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", fontWeight: "400"}} href=https://www.eventbrite.ca/e/787871453727?aff=oddtdtcreator>
+                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "black", marginLeft: "8px", fontWeight: "400"}} href=https://www.eventbrite.com/e/adult-intro-ballroom-dance-class-calgary-winter-2024-tickets-787871453727>
                             HERE
                         </a>
                     </div>
