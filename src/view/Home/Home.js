@@ -68,22 +68,6 @@ const Home = () => {
                 </div>
             </div>
             <div className="bg-white home-section">
-                <div className="home-title"><span role='img' aria-label='xmas'>🎄</span>Special Event<span role='img' aria-label='xmas'>✨</span></div>
-                <img alt='winter-gala' src={gala} style={{
-                    maxWidth: "600px",
-                    width: "100%",
-                    paddingBottom: "20px"
-                }} />
-                <Button
-                    buttonStyle='btn--dark'
-                    buttonSize='btn--large'
-                    onClick={() => window.open('https://www.eventbrite.ca/e/759543925327?aff=oddtdtcreator', '_blank') 
-                    }
-                >
-                    GET TICKETS
-                </Button>
-            </div>
-            <div className="bg-grey home-section">
                 <div className="home-title">{homeStrings.home.section2_title}</div>
                 <div className="home-text">{homeStrings.home.section2_content}</div>
                 <ClassCards />
@@ -95,13 +79,13 @@ const Home = () => {
                     LEARN MORE
                 </Button>
             </div>
-            <div className="bg-white home-section">
+            <div className="bg-grey home-section">
                 <div className="home-title">{homeStrings.home.section3_title}</div>
                 <Carousel
                     childrenList={getTestimonialList()}
                 />
             </div>
-            <div className="bg-grey home-section">
+            <div className="bg-white home-section">
                 <div className="home-title">{homeStrings.home.section4_title}</div>
                 <Carousel
                     childrenList={getGalleryList()}
