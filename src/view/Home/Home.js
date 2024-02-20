@@ -6,8 +6,6 @@ import { homeStrings } from '../../config';
 import { team, team2, team3, team4, team5, team6 } from '../../asset';
 import { externalLinks } from '../../config';
 
-import gala from "../../asset/gala.jpg";
-
 const Home = () => {
     const refToMainContent = useRef(null);
     const galleryList = [team, team2, team3, team4, team5, team6];
