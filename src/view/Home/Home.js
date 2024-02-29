@@ -58,14 +58,14 @@ const Home = () => {
             <HeroSection
                 handleClick={handleScrollToMainContent}
             />
-            <div className="bg-grey home-section" ref={refToMainContent}>
+            <div className="home-section" ref={refToMainContent}>
                 <div className="home-title">{homeStrings.home.section1_title}</div>
                 <div className="home-text">{homeStrings.home.section1_content}</div>
                 <div className="home-video-wrapper">
                     <VideoPlayer src={externalLinks.homeIntroVideo} />
                 </div>
             </div>
-            <div className="bg-white home-section">
+            <div className="home-section">
                 <div className="home-title">{homeStrings.home.section2_title}</div>
                 <div className="home-text">{homeStrings.home.section2_content}</div>
                 <ClassCards />
@@ -77,13 +77,13 @@ const Home = () => {
                     LEARN MORE
                 </Button>
             </div>
-            <div className="bg-grey home-section">
+            <div className="home-section">
                 <div className="home-title">{homeStrings.home.section3_title}</div>
                 <Carousel
                     childrenList={getTestimonialList()}
                 />
             </div>
-            <div className="bg-white home-section">
+            <div className="home-section">
                 <div className="home-title">{homeStrings.home.section4_title}</div>
                 <Carousel
                     childrenList={getGalleryList()}

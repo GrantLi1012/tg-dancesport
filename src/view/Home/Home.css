@@ -5,20 +5,20 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
+.home-container .home-section:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.home-container .home-section:nth-child(even) {
+    background-color: #fff;
+}
+
 .home-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 5vw;
-}
-
-.bg-white {
-    background-color: #fff;
-}
-
-.bg-grey {
-    background-color: #f3f3f3;
 }
 
 .home-title {
