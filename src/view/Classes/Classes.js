@@ -102,13 +102,13 @@ const Classes = () => {
                     })}
                 </div>
                 <div className='classes-subtitle'>
-                    Kids Program Winter 2024
+                    Kids Program Spring 2024
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>Jan 20, 27;</div>
-                    <div>Feb 03, 10, 17, 24;</div>
-                    <div>March 02;</div>
+                    <div>April 06, 13, 27;</div>
+                    <div>May 04, 11, 25;</div>
+                    <div>June 08, 15, 22, 29;</div>
                     <div> </div>
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>140-8833 Odlin Crescent, Richmond;</div>
@@ -117,7 +117,7 @@ const Classes = () => {
                     <div>12:00-12:50  Mini Dancer 4-6 y.o.;</div>
                     <div>12:00-12:50  Young Dancer 7-10 y.o., and beginners;</div>
                     <div>1:00-1:50  Junior Dancer 11+;</div>
-                    <div style={{fontWeight:500}}>Tuition: $150.</div>
+                    <div style={{fontWeight:500}}>Tuition: $230. Additional siblings $200/person.</div>
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
                     <div>***We reserve the right to cancel classes with full refund if it does not meet minimum registration requirements or for un-forseen circumstances. </div>
@@ -146,17 +146,18 @@ const Classes = () => {
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Ballroom Intro in Calgary</div>
                     <div>Date: </div>
-                    <div>Jan. 27;</div>
-                    <div>Feb 10, 24;</div>
-                    <div>Mar. 02, 16, 30</div>
+                    <div>April 13, 27;</div>
+                    <div>May 11, 25;</div>
+                    <div>June 08, 22.</div>
                     <div>Time: Saturdays 1:00-2:00pm</div>
                     <div>Location: Olympia Dance Club, 517 16th Ave NE, Calgary, AB.</div>
                     <div></div>
                     <div style={{fontWeight:500}}>Technique 101</div>
                     <div>Date:</div>
-                    <div>Jan. 17, 24,31;</div>
-                    <div>Feb. 07, 14, 21, 28;</div>
-                    <div>Mar. 06, 13, 20, 27;</div>
+                    <div>April 03, 10, 17, 24;</div>
+                    <div>May 01, 08, 15, 22;</div>
+                    <div>June 05, 12, 19, 26;</div>
+                    <div>July 03.</div>
                     <div>Time: Wednesdays 7:30-8:25pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St., Vancouver </div>
                     <div> </div>
