@@ -49,6 +49,12 @@
     transform: scaleX(-1);
 }
 
+@media (max-width: 768px) {
+    .carousel-slide {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .carousel-img {
         width: 2rem;

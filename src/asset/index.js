@@ -54,3 +54,6 @@ export {default as tp7} from './tp7.jpg';
 export {default as tp8} from './tp8.jpg';
 export {default as tp9} from './tp9.jpg';
 export {default as tp10} from './tp10.JPG';
+
+// posters
+export {default as robson} from "./robson.jpg";
