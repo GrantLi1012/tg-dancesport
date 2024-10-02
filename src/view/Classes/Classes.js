@@ -142,23 +142,16 @@ const Classes = () => {
                     })}
                 </div>
                 <div className='classes-subtitle'>
-                    Adult Classes Winter 2024
+                    Adult Classes Fall 2024
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Ballroom Intro in Calgary</div>
-                    <div>Date: </div>
-                    <div>April 13, 27;</div>
-                    <div>May 11, 25;</div>
-                    <div>June 08, 22.</div>
-                    <div>Time: Saturdays 1:00-2:00pm</div>
-                    <div>Location: Olympia Dance Club, 517 16th Ave NE, Calgary, AB.</div>
+                    <div>Date: TBA</div>
+                    <div>Time: TBA</div>
+                    <div>Location: TBA</div>
                     <div></div>
                     <div style={{fontWeight:500}}>Technique 101</div>
-                    <div>Date:</div>
-                    <div>April 03, 10, 17, 24;</div>
-                    <div>May 01, 08, 15, 22;</div>
-                    <div>June 05, 12, 19, 26;</div>
-                    <div>July 03.</div>
+                    <div></div>
                     <div>Time: Wednesdays 7:30-8:25pm</div>
                     <div>Location: Scottish Cultural Centre 8886 Hudson St., Vancouver </div>
                     <div> </div>
@@ -172,10 +165,7 @@ const Classes = () => {
                     <div> </div>
                     <div></div>
                     <div style={{fontWeight:500}}>Registration</div>
-                    <div>Please email us directly at tonyandgloria@gmail.com for registration and details, or enroll on Eventbrite for Calgary Intro Class
-                        <a target='_blank' rel="noopener noreferrer" style={{textDecoration: "underline", color: "black", marginLeft: "8px", fontWeight: "600"}} href='https://www.eventbrite.com/e/787871453727?aff=oddtdtcreator'>
-                         HERE
-                        </a>
+                    <div>Please email us directly at tonyandgloria@gmail.com for registration and details.
                     </div>
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
