@@ -112,7 +112,7 @@ const Classes = () => {
                     <div>December 07, 14;</div>
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>2490 w 37th Ave, Vancouver;</div>
-                    <div>*Plenty of free parking in the back*</div>
+                    <div>*Plenty of free street parking*</div>
                     <div style={{fontWeight:500}}>Time:</div>
                     <div>12:00-12:50</div>
                     <div></div>
