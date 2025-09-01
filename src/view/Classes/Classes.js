@@ -102,22 +102,22 @@ const Classes = () => {
                     })}
                 </div>
                 <div className='classes-subtitle'>
-                    Kids Program Winter 2025
+                    Kids Program Fall 2025
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>Jan 11, 18, 25;</div>
-                    <div>Feb 01, 08, 15, 22;</div>
-                    <div>March 01, 08;</div>
-                    <div></div>
+                    <div>September 14, 21, 28;</div>
+                    <div>October 05, 26;</div>
+                    <div>November 02, 09, 16,23,30;</div>
+                    <div>December 07, 14;</div>
                     <div style={{fontWeight:500}}>Address:</div>
-                    <div>140-8833 Odlin Crescent, Richmond;</div>
+                    <div>2490 w 37th Ave, Vancouver;</div>
                     <div>*Plenty of free parking in the back*</div>
                     <div style={{fontWeight:500}}>Time:</div>
-                    <div>12:00-12:50  Mini Dancer 4-6 y.o.;</div>
-                    <div>12:00-12:50  Young Dancer 7-10 y.o., and beginners;</div>
-                    <div>1:00-1:50  Junior Dancer 11+;</div>
-                    <div style={{fontWeight:500}}>Tuition: $225. Additional siblings $215/person. Early Bird Discount When Pay by December 31, 2024: $215</div>
+                    <div>12:00-12:50</div>
+                    <div></div>
+                    <div></div>
+                    <div style={{fontWeight:500}}>Tuition: $300. Additional siblings $250/person.</div>
                 
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
