@@ -150,9 +150,10 @@ const Classes = () => {
                     <div>Time: TBA</div>
                     <div>Location: TBA</div>
                     <div></div>
+                    <div> </div>
                     <div style={{fontWeight:500}}>Rising Star Academy</div>
                     <div>Please contact us directly regarding our unique RSA program for newcomers and slightly experienced dancers</div>
-                    <div></div>
+                    <div> </div>
                     <div style={{fontWeight:500}}>Technique 101</div>
                     <div></div>
                     <div>Time: Wednesdays 7:30-8:25pm</div>
