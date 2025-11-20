@@ -28,6 +28,14 @@ const HeroSection = (props) => {
             <div className='hero-btns'>
                 <Button
                     className='btns'
+                    buttonStyle='btn--primary'
+                    buttonSize='btn--large'
+                    onClick={handleClick}
+                >
+                    EVENTS
+                </Button>
+                <Button
+                    className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                     onClick={goToClasses}

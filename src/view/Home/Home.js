@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Home.css';
 import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer } from '../../component';
 import { homeStrings } from '../../config';
-import { team, team2, team3, team4, team5, team6, robson } from '../../asset';
+import { team, team2, team3, team4, team5, team6, robson, winterGala } from '../../asset';
 import { externalLinks } from '../../config';
 
 const Home = () => {
@@ -58,7 +58,26 @@ const Home = () => {
             <HeroSection
                 handleClick={handleScrollToMainContent}
             />
-            <div className="home-section">
+            {/* winter gala */}
+            <div className="home-section" ref={refToMainContent}>
+                <div className="home-title">Winter Gala 2025 <span role="img" aria-label="emoji1">🌟🕺💃🎄</span></div>
+                <div className="home-text">Join us for an enchanting evening Nov 20!</div>
+                <div className="home-text">Performances, Free Lessons, Door Prizes,</div>
+                <div className="home-text">And create unforgettable holiday memories together! <span role="img" aria-label="emoji2">🎶✨</span></div>
+                <Button
+                    buttonStyle='btn--dark'
+                    buttonSize='btn--large'
+                    onClick={() => window.open('https://www.eventbrite.ca/e/tgdancesport-winter-gala-tickets-1962948910031?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile', '_blank')}
+                >
+                    GET TICKETS
+                </Button>
+                <br/>
+                <div className="home-poster">
+                    <img src={winterGala} alt="winter-gala" className="poster-img" />
+                </div>
+            </div>
+            {/* Robson */}
+            {/* <div className="home-section">
                 <div className="home-title">Dance the night away at Robson Square on July 05! <span role="img" aria-label="emoji1">🌟🕺💃</span></div>
                 <div className="home-text">Join us for an enchanting evening at TGDancesport Night at Robson Square on July 05! As part of the Robson Square Summer Dance Series!</div>
                 <div className="home-text">This special night features a dazzling Barbie-themed show and an exciting competition showcase!</div>
@@ -67,8 +86,8 @@ const Home = () => {
                 <div className="home-poster">
                     <img src={robson} alt="robson-night" className="poster-img" />
                 </div>
-            </div>
-            <div className="home-section" ref={refToMainContent}>
+            </div> */}
+            <div className="home-section">
                 <div className="home-title">{homeStrings.home.section1_title}</div>
                 <div className="home-text">{homeStrings.home.section1_content}</div>
                 <div className="home-video-wrapper">
