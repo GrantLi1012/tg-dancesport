@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Home.css';
 import { HeroSection, ClassCards, Button, Carousel, Testimonial, VideoPlayer } from '../../component';
 import { homeStrings } from '../../config';
-import { team, team2, team3, team4, team5, team6, robson, winterGala } from '../../asset';
+import { team, team2, team3, team4, team5, team6, winterGala } from '../../asset';
 import { externalLinks } from '../../config';
 
 const Home = () => {
