@@ -61,7 +61,7 @@ const Home = () => {
             {/* winter gala */}
             <div className="home-section" ref={refToMainContent}>
                 <div className="home-title">Winter Gala 2025 <span role="img" aria-label="emoji1">🌟🕺💃🎄</span></div>
-                <div className="home-text">Join us for an enchanting evening Nov 20!</div>
+                <div className="home-text">Join us for an enchanting evening on Dec 7!</div>
                 <div className="home-text">Performances, Free Lessons, Door Prizes,</div>
                 <div className="home-text">And create unforgettable holiday memories together! <span role="img" aria-label="emoji2">🎶✨</span></div>
                 <Button
