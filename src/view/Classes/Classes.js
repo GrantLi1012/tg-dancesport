@@ -106,9 +106,9 @@ const Classes = () => {
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>Jan. 18, 25;</div>
-                    <div>Feb. 01, 08, 15, 22;</div>
-                    <div>Mar. 01, 08;</div>
+                    <div>January 18, 25;</div>
+                    <div>Febuary 01, 08, 15, 22;</div>
+                    <div>March 01, 08;</div>
                     <div> </div>
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>2490 w 37th Ave, Vancouver;</div>
