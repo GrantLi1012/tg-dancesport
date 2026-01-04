@@ -102,14 +102,14 @@ const Classes = () => {
                     })}
                 </div>
                 <div className='classes-subtitle'>
-                    Kids Program Fall 2025
+                    Kids Program Winter 2026
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>September 14, 21, 28;</div>
-                    <div>October 05, 26;</div>
-                    <div>November 02, 09, 16,23,30;</div>
-                    <div>December 07, 14;</div>
+                    <div>Jan. 18, 25;</div>
+                    <div>Feb. 01, 08, 15, 22;</div>
+                    <div>Mar. 01, 08;</div>
+                    <div> </div>
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>2490 w 37th Ave, Vancouver;</div>
                     <div>*Plenty of free street parking*</div>
@@ -117,7 +117,7 @@ const Classes = () => {
                     <div>12:00-12:50</div>
                     <div></div>
                     <div></div>
-                    <div style={{fontWeight:500}}>Tuition: $300. Additional siblings $250/person.</div>
+                    <div style={{fontWeight:500}}>Tuition: $230. Additional siblings $200/person.</div>
                 
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
