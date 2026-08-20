@@ -102,14 +102,14 @@ const Classes = () => {
                     })}
                 </div>
                 <div className='classes-subtitle'>
-                    Kids Program Spring 2026
+                    Kids Program Fall Semester 2026
                 </div>
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
-                    <div>April 12, 26;</div>
-                    <div>May 3, 10, 24, 31;</div>
-                    <div>June 7, 14, 21, 28;</div>
-                    <div> </div>
+                    <div>September 13, 20, 27;</div>
+                    <div>October 04,25;</div>
+                    <div>November 01, 08, 15, 22, 29;</div>
+                    <div>December 06, 13</div>
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>St Mary's Kerrisdale 2490 w 37th Ave, Vancouver;</div>
                     <div>*Plenty of free street parking*</div>
@@ -118,7 +118,7 @@ const Classes = () => {
                     <div>12:00-12:50</div>
                     <div></div>
                     <div> </div>
-                    <div style={{fontWeight:500}}>Tuition: $290/person. Additional siblings $250/person.</div>
+                    <div style={{fontWeight:500}}>Tuition: $360/person. Additional siblings $315/person. Early Bird Prepay By August 31: $315/person</div>
                 
                     <div>*No refunds </div>
                     <div>**All discounts and promotions can not be combined.</div>
