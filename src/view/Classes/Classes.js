@@ -130,7 +130,7 @@ const Classes = () => {
                     {adultClasses.map((item, index) => {
                         return (
                             <Card
-                                key={"kids" + index.toString()}
+                                key={"adults" + index.toString()}
                                 src={item.src}
                                 text={item.texts}
                                 title={item.title}
