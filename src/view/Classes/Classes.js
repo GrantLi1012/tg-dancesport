@@ -107,7 +107,7 @@ const Classes = () => {
                 <div className='classes-text'>
                     <div style={{fontWeight:500}}>Dates:</div>
                     <div>September 13, 20, 27;</div>
-                    <div>October 04,25;</div>
+                    <div>October 04, 25;</div>
                     <div>November 01, 08, 15, 22, 29;</div>
                     <div>December 06, 13</div>
                     <div style={{fontWeight:500}}>Address:</div>
