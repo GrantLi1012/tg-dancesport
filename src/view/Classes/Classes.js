@@ -113,11 +113,11 @@ const Classes = () => {
                     <div style={{fontWeight:500}}>Address:</div>
                     <div>St Mary's Kerrisdale 2490 w 37th Ave, Vancouver;</div>
                     <div>*Plenty of free street parking*</div>
-                    div> </div>
+                    div></div>
                     <div style={{fontWeight:500}}>Time:</div>
                     <div>12:00-12:50</div>
                     <div></div>
-                    <div> </div>
+                    <div></div>
                     <div style={{fontWeight:500}}>Tuition: $360/person. Additional siblings $315/person. Early Bird Prepay By August 31: $315/person</div>
                 
                     <div>*No refunds </div>
