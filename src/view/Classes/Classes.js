@@ -125,7 +125,6 @@ const Classes = () => {
                     <div>***We reserve the right to cancel classes with full refund if it does not meet minimum registration requirements or for un-forseen circumstances. </div>
                     <div>​Contact us for more information.</div>
                 </div>
-            </div>
             <div className='classes-section-grey' ref={refAdults}>
                 <div className='classes-subtitle'>
                     For Adults
