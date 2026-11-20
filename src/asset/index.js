@@ -57,4 +57,4 @@ export {default as tp10} from './tp10.JPG';
 
 // posters
 export {default as robson} from "./robson.jpg";
-export {default as winterGala} from "./winter-gala.jpg";
+export {default as winterGala} from "./winter-gala-2026.jpg";

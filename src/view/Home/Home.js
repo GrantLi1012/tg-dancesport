@@ -60,18 +60,10 @@ const Home = () => {
             />
             {/* winter gala */}
             <div className="home-section" ref={refToMainContent}>
-                <div className="home-title">Winter Gala 2025 <span role="img" aria-label="emoji1">🌟🕺💃🎄</span></div>
-                <div className="home-text">Join us for an enchanting evening on Dec 7!</div>
+                <div className="home-title">Winter Gala 2026 <span role="img" aria-label="emoji1">🌟🕺💃🎄</span></div>
+                <div className="home-text">Join us for an enchanting evening on Dec 13!</div>
                 <div className="home-text">Performances, Free Lessons, Door Prizes,</div>
                 <div className="home-text">And create unforgettable holiday memories together! <span role="img" aria-label="emoji2">🎶✨</span></div>
-                <Button
-                    buttonStyle='btn--dark'
-                    buttonSize='btn--large'
-                    onClick={() => window.open('https://www.eventbrite.ca/e/tgdancesport-winter-gala-tickets-1962948910031?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile', '_blank')}
-                >
-                    GET TICKETS
-                </Button>
-                <br/>
                 <div className="home-poster">
                     <img src={winterGala} alt="winter-gala" className="poster-img" />
                 </div>
