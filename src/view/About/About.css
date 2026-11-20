@@ -116,7 +116,6 @@
 .about-sponsor-item {
     flex-direction: column;
     text-align: center;
-    cursor: pointer;
 }
 
 .about-sponsor-text {

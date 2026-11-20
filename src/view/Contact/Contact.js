@@ -1,43 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Contact.css';
 import { tg9, youtube, facebook } from '../../asset';
 import { Button } from '../../component';
 import { externalLinks } from '../../config';
-import { subscribe } from '../../service';
 
 const Contact = () => {
-    const [email, setEmail] = useState('');
-
-    const handleSuscribe = () => {
-
-        const res = subscribe(email);
-        if (res) {
-            setEmail('');
-        }
-    };
-
     return (
         <div className='contact-container'>
             <img alt="tg9" className="contact-title-img"  src={tg9} />
             <div className='contact-section margin-r'>
-                <div className='contact-subsection'>
-                    <h1>Subscribe to our newsletter!</h1>
-                    <input
-                        className='contact-input'
-                        name='email'
-                        type='email'
-                        placeholder='Email'
-                        onChange={(e) => setEmail(e.target.value)}
-                        value={email}
-                    />
-                    <Button
-                        buttonStyle='btn--outline'
-                        buttonSize='btn--medium'
-                        onClick={handleSuscribe}
-                    >
-                        Subscribe
-                    </Button>
-                </div>
                 <div className='contact-subsection'>
                     <h1>Follow us on social media!</h1>
                     <li className='contact-social'>

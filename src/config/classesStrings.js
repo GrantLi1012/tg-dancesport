@@ -93,7 +93,7 @@ const classesStrings = {
         },
         {
             question: "Where are the classes held?",
-            answer: "The Adult Social classes are held at Scottish Cultural Centre and the Kids Classes are in Richmond."
+            answer: "Adult beginner classes and kids classes are held at St. Mary's Kerrisdale Church in Vancouver. Please contact us for more information."
         },
     ]
 };

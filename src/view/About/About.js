@@ -79,9 +79,7 @@ const About = () => {
                     {sponsorsInfo.map((item, index) => {
                         return (
                             <div className='about-sponsor-item'>
-                                <a href={item.link} target='_blank' rel="noopener noreferrer" style={{textDecoration: "none", color: "white"}}>
-                                    <img alt={"sponsor " + item.name} className="about-sponsor-img" src={item.image} />
-                                </a>
+                                <img alt={"sponsor " + item.name} className="about-sponsor-img" src={item.image} />
                                 <div className='about-sponsor-text'>
                                     {item.name}
                                 </div>
